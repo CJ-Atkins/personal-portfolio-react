@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.App {
+  background-color: #f7fcff;
+  max-width: 2500px;
+  margin: auto 0;
+}
+
+.section__padding {
+  padding: 2rem 12rem 0rem 12rem;
+}
+
+@media screen and (max-width: 1400px) {
+  .section__padding {
+    padding: 2rem 4rem 0rem 4rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .section__padding {
+    padding: 2rem 2rem 0rem 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .section__padding {
+    padding: 1rem 2rem 0rem 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section__padding {
+    padding: 1rem 1rem 0rem 1rem;
+  }
+}

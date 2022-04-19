@@ -1,0 +1,63 @@
+.about {
+  font-family: var(--font-family);
+}
+
+.about__paragraph {
+  max-width: 900px;
+  margin-bottom: 1.5rem;
+  font-size: 16px;
+}
+
+.about__skills-list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+.about__skills-item {
+  background-color: var(--color-pink);
+  padding: 0.7rem 1.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.about__bottom-border {
+  border-bottom: 4px solid black;
+}
+
+.about__email {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.about__email-link {
+  color: black;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 0.25rem;
+}
+
+@media screen and (max-width: 800px) {
+  .about__paragraph {
+    font-size: 12px;
+  }
+
+  .about__skills-list {
+    font-size: 12px;
+  }
+
+  .about__skills-item {
+    background-color: var(--color-pink);
+    padding: 0.4rem 1rem;
+    margin-right: 0.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .about__email-link {
+    font-size: 10px;
+  }
+}

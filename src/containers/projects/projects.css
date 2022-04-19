@@ -1,0 +1,31 @@
+.projects {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1500px) {
+  .projects {
+    grid-gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .projects {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .projects {
+    grid-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}

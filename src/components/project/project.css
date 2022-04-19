@@ -1,0 +1,47 @@
+.project {
+  background-color: var(--color-blue);
+  font-family: var(--font-family);
+  transition: all 0.4s ease-in-out;
+}
+
+.project:hover {
+  background-color: var(--color-pink);
+  transform: translateY(-10px);
+}
+
+.project__link {
+  text-decoration: none;
+  color: #000;
+}
+
+.project__image {
+  width: 100%;
+}
+
+.project__info {
+  padding: 1.25rem;
+}
+
+.project__title {
+  font-size: 22px;
+  margin-bottom: 0.5rem;
+}
+
+.project__description {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 800px) {
+  .project__info {
+    padding: 0.75rem;
+  }
+
+  .project__title {
+    font-size: 18px;
+    margin-bottom: 0.25rem;
+  }
+
+  .project__description {
+    font-size: 14px;
+  }
+}
