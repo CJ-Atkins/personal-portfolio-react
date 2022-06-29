@@ -1,0 +1,10 @@
+.privacy-policy {
+  padding: 5rem 5rem;
+  width: 80%;
+  margin: auto;
+  font-family: var(--font-family);
+}
+
+.privacy-policy__header {
+  margin: 3rem 0rem 1rem 0rem;
+}

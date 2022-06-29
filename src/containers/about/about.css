@@ -12,52 +12,92 @@
   display: flex;
   list-style: none;
   flex-wrap: wrap;
-  font-size: 16px;
-  margin-bottom: 1rem;
+  font-size: 15px;
+}
+
+.about__heading {
+  color: #fff;
+  background-color: #444;
+  padding: 0.4rem 0.6rem;
+  margin-right: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .about__skills-item {
   background-color: var(--color-pink);
-  padding: 0.7rem 1.5rem;
+  padding: 0.4rem 0.6rem;
   margin-right: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.about__tools-list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  font-size: 15px;
+  margin-bottom: 0.8rem;
+}
+
+.about__tools-item {
+  background-color: var(--color-blue);
+  padding: 0.4rem 0.6rem;
+  margin-right: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .about__bottom-border {
   border-bottom: 4px solid black;
 }
 
-.about__email {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-
-.about__email-link {
-  color: black;
-  font-style: normal;
-  text-decoration: none;
-  font-size: 14px;
-  margin-left: 0.25rem;
-}
-
 @media screen and (max-width: 800px) {
   .about__paragraph {
     font-size: 12px;
   }
-
-  .about__skills-list {
-    font-size: 12px;
-  }
-
-  .about__skills-item {
-    background-color: var(--color-pink);
-    padding: 0.4rem 1rem;
-    margin-right: 0.6rem;
+  .about__paragraph {
     margin-bottom: 1rem;
   }
 
-  .about__email-link {
+  .about__heading {
+    font-size: 12px;
+    padding: 0.2rem 0.5rem;
+    margin-right: 0.6rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .about__skills-item {
+    padding: 0.2rem 0.5rem;
+    margin-right: 0.6rem;
+    font-size: 12px;
+    margin-bottom: 0.6rem;
+  }
+
+  .about__tools-item {
+    padding: 0.2rem 0.5rem;
+    font-size: 12px;
+    margin-right: 0.6rem;
+    margin-bottom: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .about__heading {
     font-size: 10px;
+    padding: 0.3rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .about__skills-item {
+    padding: 0.3rem 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 10px;
+    margin-bottom: 0.5rem;
+  }
+
+  .about__tools-item {
+    padding: 0.3rem 0.5rem;
+    font-size: 10px;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 }

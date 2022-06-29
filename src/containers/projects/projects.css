@@ -24,8 +24,11 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
   .projects {
     grid-template-columns: 1fr;
+    width: 95%;
+    margin: auto;
+    margin-top: 0.5rem;
   }
 }

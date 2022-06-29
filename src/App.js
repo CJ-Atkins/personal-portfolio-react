@@ -1,14 +1,17 @@
 import './App.css';
-import { Navbar, Footer, About, Projects } from './containers';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Home, PrivacyPage } from './pages';
 
 function App() {
   return (
-    <div className='App'>
-      <Navbar />
-      <About />
-      <Projects />
-      <Footer />
-    </div>
+    <Router>
+      <div className='App'>
+        <Routes>
+          <Route path='/' element={<Home />} exact></Route>
+          <Route path='/privacypolicy' element={<PrivacyPage />}></Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

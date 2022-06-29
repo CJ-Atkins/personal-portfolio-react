@@ -5,11 +5,11 @@ import { projectData } from './data';
 
 const Projects = () => {
   return (
-    <div className='projects section__padding'>
+    <div id='projects' className='projects section__padding'>
       {projectData.map((item, index) => (
         <Project
           title={item.title}
-          description={item.description}
+          github={item.github}
           image={item.image}
           link={item.link}
           key={item.title + index}

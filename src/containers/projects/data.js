@@ -1,26 +1,50 @@
-import { ehsanFrost, fruity, photography, weatherApp } from './imports';
+import {
+  ehsanFrost,
+  fruity,
+  photography,
+  weatherApp,
+  yannal,
+  gndGrowth,
+} from './imports';
 
 const projectData = [
   {
-    title: 'Ehsan Frost',
+    title: 'React Photography Portfolio',
     image: ehsanFrost,
-    description: 'Portfolio created in react',
-    link: 'https://www.cjatkins.co.uk/',
+    link: 'http://ehsanfrost.cjatkins.co.uk',
+    github: 'https://github.com/CJ-Atkins/Ehsan-Frost-photography',
+  },
+
+  {
+    title: 'React Landing Page',
+    image: gndGrowth,
+    link: 'http://gndgrowth.cjatkins.co.uk',
+    github: 'https://github.com/CJ-Atkins/gnd-growth-landing-page',
   },
   {
-    title: 'Fruity Landing Page',
-    image: fruity,
-    description: 'Portfolio created in react',
-  },
-  {
-    title: 'Weather App',
+    title: 'PHP Photography Portfolio',
     image: photography,
-    description: 'Portfolio created in react',
+    link: 'http://cjphotography.cjatkins.co.uk',
+    github: 'https://github.com/CJ-Atkins/Photography-portfolio',
   },
   {
-    title: 'Photography Portfolio',
+    title: 'React Landing Page',
+    image: yannal,
+    link: 'http://yannal.cjatkins.co.uk',
+    github: 'https://github.com/CJ-Atkins/yannal-restaurant-landing-page',
+  },
+
+  {
+    title: 'JavaScript Weather App',
     image: weatherApp,
-    description: 'Portfolio created in react',
+    link: 'http://weatherapp.cjatkins.co.uk',
+    github: 'https://github.com/CJ-Atkins/Weather-App',
+  },
+  {
+    title: 'HTML / CSS Landing Page',
+    image: fruity,
+    link: 'http://fruity.cjatkins.co.uk',
+    github: 'https://github.com/CJ-Atkins/fruity-landing-page',
   },
 ];
 
