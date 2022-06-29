@@ -102,7 +102,6 @@ const Footer = () => {
         className='footer__privacy-link'
         id='privacy-policy'
         to='/privacypolicy'
-        target='_blank'
       >
         Privacy Policy
       </Link>

@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom';
 const PrivacyPolicy = () => {
   return (
     <div className='privacy-policy'>
+      <Link className='privacy-policy__back-link' id='home' to='/'>
+        BACK
+      </Link>
       <h1 className='privacy-policy__header'>Privacy Policy</h1>
       <p>Last updated: June 28, 2022</p>
       <p>

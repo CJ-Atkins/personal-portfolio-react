@@ -49,6 +49,12 @@
   border-bottom: 4px solid black;
 }
 
+.privacy-policy__back-link {
+  font-size: 26px;
+  font-weight: 700;
+  color: violet;
+}
+
 @media screen and (max-width: 800px) {
   .about__paragraph {
     font-size: 12px;
