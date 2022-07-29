@@ -1,0 +1,52 @@
+.darkmode {
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  display: none;
+}
+
+.moon {
+  color: var(--bg-1);
+  height: 25px;
+  width: 25px;
+  transform: translateY(2px);
+}
+
+.input + .toggle {
+  background: var(--txt-2);
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.input:checked + .toggle {
+  background: var(--txt-2);
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1000px) {
+  .darkmode {
+    padding: 1rem 1rem;
+  }
+  .moon {
+    height: 18px;
+    width: 18px;
+    transform: translate(-1px, 1px);
+  }
+  .input + .toggle {
+    height: 20px;
+    width: 20px;
+  }
+
+  .input:checked + .toggle {
+    height: 20px;
+    width: 20px;
+  }
+}
